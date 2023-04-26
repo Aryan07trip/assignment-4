@@ -1,0 +1,27 @@
+body{
+    background-image:url(https://wallpaperaccess.com/full/2344055.jpg);
+background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 100%;
+}
+div{
+    width:300px;
+    border: 15px solid rgb(48, 241, 206);
+    padding: 70px;
+    margin: 20px;
+}
+@media(max-width:500px){
+    .flex1{
+        display:flex;
+        justify-content:center;
+    }
+    .flex2{
+        display:flex;
+        justify-content: center;
+    }
+    body{
+        background-image: url(https://techcrunch.com/wp-content/uploads/2022/05/GettyImages-1354846583.jpeg?w=1390&crop=1);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
